@@ -1,5 +1,1 @@
-# Welcome to GitHub Desktop!
-
-This is your README. READMEs are where you can communicate what your project is and how to use it.
-
-Write your name on line 6, save it, and then head back to GitHub Desktop.
+Caporo  es una empresa que ofrece servicios de depilación, manicura que también ofrece ventas de productos relacionad  con los rubros trabajados. El objetivo de diseñar una página web sobre este proyec  es facilitar el acceso a la  informaci para los clientes y aumentar la  publicidad del local. 
