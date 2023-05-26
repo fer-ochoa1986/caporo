@@ -7,5 +7,7 @@ En el futuro se le pueden realizar modificaciones como la venta de productos a t
 
 
 Integrantes
+
 Ochoa Fernad
+
 Daiara Melany  Salone, 
