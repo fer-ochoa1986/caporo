@@ -1,3 +1,4 @@
+/*creando el menu hamburguesa*/
 header div.contenedor { 
 place-content: flex-start;
 }
@@ -66,7 +67,7 @@ header div.contenedor nav.visible{
     display:block;
 
 }
-
+/*usando grid separando las secciones*/
 header div.contenedor nav{
     position: absolute;
     top: 0%;
