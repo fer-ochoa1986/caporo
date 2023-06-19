@@ -85,4 +85,62 @@ header div.contenedor {
         grid-area: izq;}
         .clase1{
            text-align: center;
+    /*usando grid para separar seciones*/
+.clase1{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr,2fr;
+    grid-row: 2fr, 4fr, 2fr, 2fr;
+    grid-template-areas: 
+      'header header'
+      'izq main'
+      'publi main'
+      'footer footer';
+    height: 100vh; 
+}
+.clase1 h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100%;
+    text-align: center;
+
+}
+    .clase1 {
+        background-color: #b68d2c; 
+        grid-area: izq;}
+        
+         @media screen and (max-width: 500px) {
+            .clase1 {
+               grid-template-areas: 
+                 'header header'
+                  'main main'
+                  'main main'
+                  'main main'
+                  'main main'
+                  'publi izq'
+                  'footer footer';
+               }
+           }
+           
+               @media screen and (max-width: 300px) {
+                 .clase1{
+                   grid-template-areas: 
+                   'header header'
+                   'section section'
+                   'main main'
+                   'main main'
+                   'footer footer';
+
+                   }
+
+               }
+               @media screen and (max-width: 150px) {
+                .clase1{
+                    grid-template-areas: 
+                    'header header'
+                    'header header'
+                    'main main'
+                    'footer footer';
+                }
+                    
+               }               
         }
